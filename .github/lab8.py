@@ -1,8 +1,8 @@
 #Programmers: Callie Walker, Lesdy Galvez, Hanna Magan
 #Date: 11/11/21
 #Lab Number: 8
-#
-#
+#Programming Inputs: names inserted in file
+#Programming Outputs: Random name from list
 import random
 names_file = open("names.txt", "r")
 
@@ -39,4 +39,4 @@ def main():
     #print(nameList)
 main()
 names_file.close()
-#could creat while loop while length>0 and userInput == yes
+
